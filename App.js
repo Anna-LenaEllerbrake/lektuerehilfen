@@ -31,20 +31,20 @@ const App: () => React$Node = () => {
   }, []);
 
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-          name="Start"
-          component={StartScreen}
-          options={{title: 'Welcome'}}
-        />
-        <Stack.Screen name="Profile" component={ProfileScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    // <NavigationContainer>
+    //   <Stack.Navigator>
+    //     <Stack.Screen
+    //       name="Start"
+    //       component={StartScreen}
+    //       options={{title: 'Welcome'}}
+    //     />
+    //     <Stack.Screen name="Profile" component={ProfileScreen} />
+    //   </Stack.Navigator>
+    // </NavigationContainer>
 
-    // <SafeAreaView>
-    //   <StartScreen books={books} apiUrl={apiUrl} />
-    // </SafeAreaView>
+    <SafeAreaView>
+      <StartScreen books={books} apiUrl={apiUrl} />
+    </SafeAreaView>
   );
 };
 
