@@ -1,0 +1,18 @@
+export default {
+  tintColor: '#87c800',
+  tintColorGrey: '#5A5A5A',
+  mathe1: '#87c800',
+  mathe2: '#B8DE67',
+  mathe3: '#D3EAA0',
+  mathe4: '#EEF7DA',
+  deutsch1: '#2D6EC8',
+  deutsch2: '#82A9DE',
+  deutsch3: '#B1C9EA',
+  deutsch4: '#E1EAF7',
+  black: '#000000',
+  grey: '#cccccc',
+  lightgrey: '#efefef',
+  white: '#ffffff',
+  error: '#de4644',
+  warning: '#f1d207',
+};
